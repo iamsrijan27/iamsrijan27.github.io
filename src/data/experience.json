@@ -1,0 +1,28 @@
+[
+  {
+    
+    "role": "Business Analyst | SharePoint Developer",    "company": "Genpact",
+    "client": "Pfizer",
+    "duration": "May 2023 - Present",
+    "points": [
+      "Developed SharePoint Online sites using SPFx with React JS",
+      "Built multi-level approval forms and dashboards",
+      "Created Power Automate notification and adaptive card flows",
+      "Developed Power Apps using gallery and data table controls",
+      "Implemented custom header, footer, homepage, carousel banner, and newsletter",
+      "Worked on custom Copilot solutions using Copilot Studio"
+    ]
+  },
+  {
+    "company": "Cognizant",
+    "role": "Associate | SharePoint Developer",
+    "client": "McDonald’s (US)",
+    "duration": "Mar 2021 - May 2023",
+    "points": [
+      "Built SPFx web parts using React, Fluent UI, and PnP JS",
+      "Developed VSR request forms with approval workflows",
+      "Redesigned US Contact Database with dashboards and search",
+      "Implemented application customizers and migrations"
+    ]
+  }
+]

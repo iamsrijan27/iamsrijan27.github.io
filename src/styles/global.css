@@ -1,0 +1,49 @@
+:root {
+  --bg-main: #020617;
+  --bg-card: rgba(255, 255, 255, 0.08);
+  --text-main: #ffffff;
+  --text-sub: #cbd5f5;
+  --accent: #38bdf8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: var(--text-main);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.page {
+  padding: 80px 120px;
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 40px 20px;
+  }
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.app-layout {
+  min-height: 100vh;          /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+.app-content {
+  flex: 1;                    /* Pushes footer to bottom */
+}

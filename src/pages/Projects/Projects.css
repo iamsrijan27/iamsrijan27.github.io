@@ -1,0 +1,98 @@
+.projects-header {
+  max-width: 700px;
+  margin-bottom: 50px;
+}
+
+.projects-header p {
+  margin-top: 10px;
+  color: var(--text-sub);
+}
+
+/* Grid Layout */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 35px;
+}
+
+/* Project Card */
+.project-card {
+  background: var(--bg-card);
+  backdrop-filter: blur(14px);
+  border-radius: 24px;
+  padding: 36px;
+  box-shadow: 0 35px 70px rgba(0, 0, 0, 0.45);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Header */
+.project-header h3 {
+  font-size: 22px;
+}
+
+.project-client {
+  margin-top: 6px;
+  display: inline-block;
+  font-size: 13px;
+  color: var(--accent);
+}
+
+/* Description */
+.project-description {
+  margin-top: 18px;
+  color: var(--text-sub);
+  line-height: 1.6;
+}
+
+/* Tech Stack */
+.tech-stack {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tech-stack span {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+}
+
+/* Toggle Button */
+.toggle-btn {
+  margin-top: 22px;
+  background: none;
+  border: 1px solid rgba(255,255,255,0.25);
+  color: var(--text-main);
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.toggle-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Expanded Details */
+.project-details {
+  margin-top: 20px;
+  padding-left: 18px;
+  color: var(--text-sub);
+}
+
+.project-details li {
+  margin-bottom: 8px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .project-card {
+    padding: 26px 22px;
+  }
+}

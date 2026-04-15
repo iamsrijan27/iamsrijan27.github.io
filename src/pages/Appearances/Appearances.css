@@ -1,0 +1,61 @@
+.appearances-header {
+  max-width: 800px;
+  margin-bottom: 60px;
+}
+
+.appearances-header p {
+  margin-top: 10px;
+  color: var(--text-sub);
+}
+
+/* Grid Layout */
+.appearances-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+/* Card */
+.appearance-card {
+  background: var(--bg-card);
+  backdrop-filter: blur(14px);
+  border-radius: 22px;
+  padding: 36px;
+  box-shadow: 0 35px 70px rgba(0, 0, 0, 0.45);
+  transition: transform 0.3s ease;
+}
+
+.appearance-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Type badge */
+.appearance-type {
+  display: inline-block;
+  margin-bottom: 14px;
+  font-size: 12px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgba(56, 189, 248, 0.2);
+  color: var(--accent);
+}
+
+/* Title */
+.appearance-card h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+/* Description */
+.appearance-card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-sub);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .appearance-card {
+    padding: 26px 22px;
+  }
+}
